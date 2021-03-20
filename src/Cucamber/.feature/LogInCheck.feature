@@ -1,5 +1,5 @@
 Feature: LogIn
-  //Background: User is already on the website
+  // Background: User is already on the website
 
 
   Scenario: LogIn without right data

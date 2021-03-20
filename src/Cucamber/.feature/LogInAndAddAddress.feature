@@ -13,5 +13,5 @@ Feature: Task 1
     Examples:
       | email         | password |Alias            | City  |Zip    |Address          |Phone     |
       |a.lucy@lucky.pl| elo123   | FirstBuilding   | Oxford| 04-809|Right Street 404 |369852883 |
-      #|a.lucy@lucky.pl| elo123   | MainBuilding    | Oxford| 01-009|Random Street 404|340448897 |
-      #|a.lucy@lucky.pl| elo123   | AnotherBuilding | Oxford| 01-099|Other Street 404 |615989119 |
+      |a.lucy@lucky.pl| elo123   | MainBuilding    | Oxford| 01-009|Random Street 404|340448897 |
+      |a.lucy@lucky.pl| elo123   | AnotherBuilding | Oxford| 01-099|Other Street 404 |615989119 |

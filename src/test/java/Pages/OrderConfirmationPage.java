@@ -41,13 +41,12 @@ public class OrderConfirmationPage extends PageSetUp {
 
 
     public void SaveDetails() throws IOException {
-//        File ScrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-//        Confirmation.getScreenshotAs(OutputType.FILE);
+        File ScrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        Confirmation.getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(ScrFile, new File("iCloud.Desktop.SC.jpg"));
 
-//            FileUtils.copyFile(ScrFile, new File("Screenshot.jpg"));}
-
-        Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(100)).coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(driver, Confirmation);
-        ImageIO.write(screenshot.getImage(),"pdf", new File("Screenshot"));
+//        Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(100)).coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(driver, Confirmation);
+//        ImageIO.write(screenshot.getImage(),"pdf", new File("Screenshot"));
 //    FileUtils.copyFile(screenshot, new File("Screenshot.jpg"));}
     }
 }

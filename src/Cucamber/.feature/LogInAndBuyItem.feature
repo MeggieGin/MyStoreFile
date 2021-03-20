@@ -20,7 +20,7 @@ Feature: Task 2
     #Then Program checks if shown status of the order is correct
 
     Examples:
-      | email         | password | product                     |product                     | size | quantity | Address option | shipping method | method |to location      |
+      | email         | password | product                     |product                     | size | quantity | Address option | shipping method | method |to location   |
       |a.lucy@lucky.pl| elo123   | Hummingbird printed sweater |Hummingbird printed sweater | M    | 5        | Main Building  | Pick up         | Check  |icloud.Desktop|
 
 
